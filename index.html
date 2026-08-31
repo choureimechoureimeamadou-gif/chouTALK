@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Application Choureime</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            max-width: 300px; /* Ajouté pour contrôler la taille */
+        }
+        input, button {
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 80%; /* Ajuste la largeur */
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        /* Style pour le logo */
+        .logo {
+            max-width: 150px; /* Taille maximale du logo */
+            margin-bottom: 20px; /* Espace sous le logo */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Ligne ajoutée pour le logo -->
+        <!-- Assurez-vous que le nom du fichier image est exact -->
+        <img src="choureime.png" alt="Logo de Choureime" class="logo">
+        
+        <h1>Bienvenue sur mon application Choureime</h1>
+        <p>Entrez votre message ci-dessous :</p>
+        <input type="text" placeholder="Écrivez ici...">
+        <button onclick="alert('Message envoyé !')">Envoyer</button>
+    </div>
+</body>
+</html>
